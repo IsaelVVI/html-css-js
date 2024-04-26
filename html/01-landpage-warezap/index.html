@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="./css/common.css">
+</head>
+<body class="bg-body">
+    <header>
+        <nav class="nav-header">
+            <div class="logo-title">
+                <svg width="38" height="38" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.2552 0C4.59139 0 0 4.59139 0 10.2552V27.0363C0 32.7001 4.59139 37.2915 10.2552 37.2915H27.0363C32.7001 37.2915 37.2915 32.7001 37.2915 27.0363V10.2552C37.2915 4.59139 32.7001 0 27.0363 0H10.2552ZM24.9544 16.1291C25.0213 16.1674 25.0767 16.2223 25.1148 16.2884C25.153 16.3544 25.1726 16.4292 25.1717 16.5052C25.1708 16.5811 25.1493 16.6554 25.1096 16.7205L18.2533 28.7003C18.2007 28.7816 18.1219 28.8434 18.0294 28.8758C17.9369 28.9082 17.836 28.9093 17.7428 28.8789C17.6495 28.8485 17.5693 28.7884 17.5149 28.7082C17.4605 28.628 17.4351 28.5322 17.4425 28.4361L18.2042 21.2219H12.5572C12.4794 21.2219 12.403 21.2015 12.3358 21.1629C12.2687 21.1243 12.2133 21.0688 12.1753 21.0021C12.1373 20.9355 12.1182 20.8601 12.1198 20.7837C12.1214 20.7074 12.1438 20.6329 12.1845 20.5678L19.156 8.58683C19.2099 8.50559 19.2901 8.44449 19.3837 8.41339C19.4773 8.38229 19.5788 8.383 19.6719 8.41539C19.7651 8.44778 19.8444 8.50998 19.8971 8.59196C19.9498 8.67395 19.9729 8.77095 19.9626 8.86736L19.0015 16.0707H24.7341C24.8115 16.0707 24.8875 16.0909 24.9544 16.1291Z" />
+                </svg>                
+                <h1>Warezap</h1>
+            </div>
+
+            <ul class="menu">
+                <li class="menu-item">Inicio</li>
+                <li class="menu-item">Serviços</li>
+                <li class="menu-item">Planos</li>
+                <li class="menu-item">Contato</li>
+            </ul>
+            <div class="btns-header">
+                <button class="btn-link btn-animate">
+                    <span>Entrar</span>
+                </button>
+                <button class="btn btn-animate">
+                    <span>Criar conta</span>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- First section / banner or text -->
+        <section class="primary">
+            <span class="bg-title">WAREZAP</span>
+            <h1 class="title-primary">
+                A Plataforma<br> Simples e Direta <br> do produto ao chat.
+                <!-- Awesome UI Dark <br> Template for <br> Webflow Agency -->
+            </h1>
+            <button class="btn-secondary">
+                Testar 7 dias Grátis
+            </button>
+        </section>
+        <!-- Section for services grid 1 column-->
+        <section class="services grid cols-4">
+            <div class="span-4">
+                <h1 class="title-service">Nossas Soluções</h1>
+            </div>
+            <!-- desktop 2 sections - first grid with 3 columns - second grid 1 column  -->
+            <div class="grid cols-service">
+                <!-- WebDesing -->
+                <section class="card-service">
+                    <div class="card-header">
+                        <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 1V2M8 16V17M1.07178 5L1.9378 5.5M14.0622 12.5L14.9282 13M14.9282 4.99999L14.0622 5.49999M1.93781 12.5L1.07178 13M12 9C12 6.79086 10.2091 5 8 5C5.79084 5 3.99998 6.79086 3.99998 9C3.99998 11.2091 5.79084 13 8 13C10.2091 13 12 11.2091 12 9Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        <h1>Integrações</h1>
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            Publique seus produtos na plataforma e compartilhe automaticamente em suas redes sociais favoritas
+                        </p>
+                    </div>
+                </section>
+                <!-- UI/UX Desing -->
+                <section class="card-service">
+                    <div class="card-header">
+                        <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.2442 1.86956C9.0022 0.479678 10.9979 0.479678 11.7559 1.86956L12.9723 4.09993C13.2599 4.62738 13.7694 4.99758 14.36 5.10817L16.8571 5.57579C18.4132 5.86719 19.0299 7.76527 17.9422 8.91567L16.1969 10.7617C15.7842 11.1983 15.5895 11.7973 15.6668 12.3931L15.9938 14.9125C16.1975 16.4824 14.5829 17.6555 13.1527 16.9766L10.8577 15.8871C10.3149 15.6295 9.6851 15.6295 9.1424 15.8871L6.84732 16.9766C5.41713 17.6555 3.80257 16.4824 4.00629 14.9125L4.3332 12.3931C4.41051 11.7973 4.21588 11.1983 3.80313 10.7617L2.05781 8.91567C0.970188 7.76527 1.58689 5.86719 3.14299 5.57579L5.64007 5.10817C6.2306 4.99758 6.74014 4.62738 7.02779 4.09993L8.2442 1.86956Z" stroke-width="1.5" stroke-linejoin="round"/>
+                        </svg>                            
+                        <h1>Desing Elegante</h1>
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            A plataforma oferece layouts modulares, adaptáveis conforme o seu ramo de negócio
+                        </p>
+                    </div>
+                </section>
+                <!-- Responsive Design -->
+                <section class="card-service">
+                    <div class="card-header">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 16H4C2.34315 16 1 14.6569 1 13V4C1 2.34315 2.34315 1 4 1H16C17.6569 1 19 2.34315 19 4V13C19 14.6569 17.6569 16 16 16H12M8 16V19M8 16H12M12 16V19M8 19H12M8 19H7M12 19H13" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>                       
+                        <h1>Gestão de Estoque</h1>
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            A Warezap oferece uma gestão completa de estoque, notificando automaticamente sobre itens em falta e destacando aqueles com alta demanda.
+                        </p>
+                    </div>
+                </section>
+                <!-- Webflow -->
+                <section class="card-service-2 card-content-2 grid cols-3">
+                    <!-- content -->
+                    <div class="span-2">
+                        <div class="card-header-2">
+                            <svg width="20" height="20" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M10.2552 0C4.59139 0 0 4.59139 0 10.2552V27.0363C0 32.7001 4.59139 37.2915 10.2552 37.2915H27.0363C32.7001 37.2915 37.2915 32.7001 37.2915 27.0363V10.2552C37.2915 4.59139 32.7001 0 27.0363 0H10.2552ZM24.9544 16.1291C25.0213 16.1674 25.0767 16.2223 25.1148 16.2884C25.153 16.3544 25.1726 16.4292 25.1717 16.5052C25.1708 16.5811 25.1493 16.6554 25.1096 16.7205L18.2533 28.7003C18.2007 28.7816 18.1219 28.8434 18.0294 28.8758C17.9369 28.9082 17.836 28.9093 17.7428 28.8789C17.6495 28.8485 17.5693 28.7884 17.5149 28.7082C17.4605 28.628 17.4351 28.5322 17.4425 28.4361L18.2042 21.2219H12.5572C12.4794 21.2219 12.403 21.2015 12.3358 21.1629C12.2687 21.1243 12.2133 21.0688 12.1753 21.0021C12.1373 20.9355 12.1182 20.8601 12.1198 20.7837C12.1214 20.7074 12.1438 20.6329 12.1845 20.5678L19.156 8.58683C19.2099 8.50559 19.2901 8.44449 19.3837 8.41339C19.4773 8.38229 19.5788 8.383 19.6719 8.41539C19.7651 8.44778 19.8444 8.50998 19.8971 8.59196C19.9498 8.67395 19.9729 8.77095 19.9626 8.86736L19.0015 16.0707H24.7341C24.8115 16.0707 24.8875 16.0909 24.9544 16.1291Z" />
+                            </svg>                      
+                            <h1>Automação</h1>
+                        </div>
+                        <div class="card-content">
+                            <p>
+                                Desfrute de um atendimento totalmente automatizado: seus clientes compram e você só precisa finalizar
+                            </p>
+                        </div>
+                    </div>
+                    <!-- element -->
+                    <div class="card-element">
+                        <svg width="60" height="60" viewBox="0 0 38 38" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M10.2552 0C4.59139 0 0 4.59139 0 10.2552V27.0363C0 32.7001 4.59139 37.2915 10.2552 37.2915H27.0363C32.7001 37.2915 37.2915 32.7001 37.2915 27.0363V10.2552C37.2915 4.59139 32.7001 0 27.0363 0H10.2552ZM24.9544 16.1291C25.0213 16.1674 25.0767 16.2223 25.1148 16.2884C25.153 16.3544 25.1726 16.4292 25.1717 16.5052C25.1708 16.5811 25.1493 16.6554 25.1096 16.7205L18.2533 28.7003C18.2007 28.7816 18.1219 28.8434 18.0294 28.8758C17.9369 28.9082 17.836 28.9093 17.7428 28.8789C17.6495 28.8485 17.5693 28.7884 17.5149 28.7082C17.4605 28.628 17.4351 28.5322 17.4425 28.4361L18.2042 21.2219H12.5572C12.4794 21.2219 12.403 21.2015 12.3358 21.1629C12.2687 21.1243 12.2133 21.0688 12.1753 21.0021C12.1373 20.9355 12.1182 20.8601 12.1198 20.7837C12.1214 20.7074 12.1438 20.6329 12.1845 20.5678L19.156 8.58683C19.2099 8.50559 19.2901 8.44449 19.3837 8.41339C19.4773 8.38229 19.5788 8.383 19.6719 8.41539C19.7651 8.44778 19.8444 8.50998 19.8971 8.59196C19.9498 8.67395 19.9729 8.77095 19.9626 8.86736L19.0015 16.0707H24.7341C24.8115 16.0707 24.8875 16.0909 24.9544 16.1291Z" />
+                        </svg>   
+                    </div>
+                </section>
+                <!-- Custom Development -->
+                <section class="card-service">
+                    <div class="card-header">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 7L7.53354 8.5201C8.7287 9.2372 8.8423 10.9262 7.75394 11.7968L5 14M10 14H15M4 19H16C17.6569 19 19 17.6569 19 16V4C19 2.34315 17.6569 1 16 1H4C2.34315 1 1 2.34315 1 4V16C1 17.6569 2.34315 19 4 19Z" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>                                                   
+                        <h1>Atualizações Recorrentes</h1>
+                    </div>
+                    <div class="card-content">
+                        <p>
+                            Conte com atualizações constantes para manter sua plataforma sempre atualizada e competitiva.
+                        </p>
+                    </div>
+                </section>
+            </div>
+            <!-- one grid in 2 rows -->
+            <!-- E-commerce -->
+            <section class="full-service">
+                <div class="card-header-2">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.01005 9.75C7.42426 9.75 7.76005 9.4142 7.76005 9C7.76005 8.5858 7.42426 8.25 7.01005 8.25V9.75ZM7.00005 8.25C6.58583 8.25 6.25005 8.5858 6.25005 9C6.25005 9.4142 6.58583 9.75 7.00005 9.75V8.25ZM13.01 9.75C13.4243 9.75 13.76 9.4142 13.76 9C13.76 8.5858 13.4243 8.25 13.01 8.25V9.75ZM13 8.25C12.5858 8.25 12.25 8.5858 12.25 9C12.25 9.4142 12.5858 9.75 13 9.75V8.25ZM4.77814 6.75H15.222V5.25H4.77814V6.75ZM17.4653 8.8274L18.0038 15.8274L19.4994 15.7124L18.9609 8.7124L17.4653 8.8274ZM15.7604 18.25H4.23968V19.75H15.7604V18.25ZM1.99631 15.8274L2.53477 8.8274L1.03919 8.7124L0.500732 15.7124L1.99631 15.8274ZM4.23968 18.25C2.92903 18.25 1.89579 17.1342 1.99631 15.8274L0.500732 15.7124C0.333192 17.8904 2.05527 19.75 4.23968 19.75V18.25ZM18.0038 15.8274C18.1043 17.1342 17.0711 18.25 15.7604 18.25V19.75C17.9448 19.75 19.6669 17.8904 19.4994 15.7124L18.0038 15.8274ZM15.222 6.75C16.3977 6.75 17.3752 7.65519 17.4653 8.8274L18.9609 8.7124C18.8106 6.75865 17.1815 5.25 15.222 5.25V6.75ZM4.77814 5.25C2.81863 5.25 1.18947 6.75865 1.03919 8.7124L2.53477 8.8274C2.62494 7.65519 3.60244 6.75 4.77814 6.75V5.25ZM12.25 4V6H13.75V4H12.25ZM7.75005 6V4H6.25005V6H7.75005ZM10 1.75C11.2427 1.75 12.25 2.75736 12.25 4H13.75C13.75 1.92893 12.0711 0.25 10 0.25V1.75ZM10 0.25C7.92898 0.25 6.25005 1.92893 6.25005 4H7.75005C7.75005 2.75736 8.7574 1.75 10 1.75V0.25ZM7.01005 8.25H7.00005V9.75H7.01005V8.25ZM13.01 8.25H13V9.75H13.01V8.25Z"/>
+                    </svg>                                              
+                    <h1>A solução do seu ecommerce</h1>
+                </div>
+                <div class="card-content">
+                    <p>
+                        Potencialize seu Ecommerce: nossa solução personalizada para o seu sucesso
+                    </p>
+                    <img src="./assets/svgs/ecommerce-card.svg" alt="svg for eccomerce">
+                </div>
+            </section>
+        </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
